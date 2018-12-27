@@ -1,0 +1,18 @@
+=e($name)
+  @at-root #{&}__#{$name}
+    @content
+
+// @minxin m($name) => @include
+=m($name)
+  @at-root #{&}--#{$name}
+    @content
+
+
+.Breadcrumb
+  background: #ddd
+
+  +m(with-pipes)
+    color: green
+
+  +e(item)
+    color: red

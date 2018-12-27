@@ -1,0 +1,24 @@
+{
+  "name": "knock-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "laravel-elixir-stylus": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qpjoy/knock-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qpjoy/knock-css/issues"
+  },
+  "homepage": "https://github.com/qpjoy/knock-css#readme"
+}

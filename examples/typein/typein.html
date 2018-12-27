@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            animation: type 2s steps(28), blink .5s infinite alternate;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 28ch; // 28 characters
+            /*width: 24ch; */
+            border-right: 3px solid;
+            font-family: monospace;
+        }
+
+        @keyframes type {
+            from {
+                width: 0;
+            }
+
+            to {
+
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to  {
+                opacity: 1;
+            }
+        }
+
+        .fadeIn {
+            animation: fadeIn 1s;
+            animation-fill-mode: both;
+        }
+
+        .wait-2s {
+            animation-delay: 2s;
+        }
+
+        .wait-3s {
+            animation-delay: 3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>I Will Sign Up For Laracasts</h1>
+
+    <p class="fadeIn wait-2s">
+        bla bla bla just sign up!
+    </p>
+
+    <p class="fadeIn wait-3s">
+        <button>Sign Up</button>
+    </p>
+</body>
+</html>
