@@ -1,0 +1,14 @@
+body {
+  background-color: #8c1515;
+  color: rgb(255, 255, 255);
+}
+
+div.grey {
+  background-color: #555;
+  color: red;
+}
+
+h1 {
+  background-color: white;
+  color: #000;
+}

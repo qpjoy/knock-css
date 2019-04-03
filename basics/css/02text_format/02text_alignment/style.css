@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+nav {
+  border-bottom-width: 2px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+p.left { text-align: left; }
+p.right { text-align: right; }
+p.center { text-align: center; }
+p.justified { text-align: justify; }

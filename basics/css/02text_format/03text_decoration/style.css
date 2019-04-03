@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+nav {
+  border-bottom-width: 2px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline { text-decoration: overline; }
+
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: blue;
+  text-decoration-style: dotted;
+  color: red;
+}
+

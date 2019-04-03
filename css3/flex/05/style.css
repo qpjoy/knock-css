@@ -1,0 +1,30 @@
+h4 {
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid #cecece;
+  padding: 20px;
+}
+
+.media {
+  display: flex;
+  width: 100%;
+}
+
+.media-left {
+  margin-right: 1em;
+}
